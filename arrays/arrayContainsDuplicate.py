@@ -4,7 +4,7 @@
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        numsCount = dict()
+        numsCount = {}
         for number in nums:
             if number in numsCount:
                 return True
